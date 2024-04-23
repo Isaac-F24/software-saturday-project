@@ -1,0 +1,15 @@
+{
+  "short_name": "Pokemon Card App",
+  "name": "Pokemon Card App (ReactJS)",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "1280x1280",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
