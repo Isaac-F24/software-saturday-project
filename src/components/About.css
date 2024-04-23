@@ -1,0 +1,20 @@
+.aboutPage {
+    border: 6px black ridge;
+    border-radius: 30px;
+
+    background-color: rgb(153, 23, 23);
+
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+    padding: 1em;
+
+    text-align: left;
+    color: rgb(255, 253, 248);
+}
+
+.aboutPage a {
+    color: rgb(255, 253, 248)
+}

@@ -1,0 +1,37 @@
+.titleBar {
+    background-color: rgb(153, 23, 23);
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.titleBar h2 {
+    color:rgb(255, 253, 248);
+    font-family: "Bahnschrift", sans-serif;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.logo {
+    background:none;
+    border:none;
+}
+
+.about {
+    color:rgb(255, 253, 248);
+    margin: 10px;
+
+    background: none;
+    border: none;
+
+    font-family: "Bahnschrift", sans-serif;
+    font-size: large;
+}
+
+.about:hover { /*make it look like link*/
+    text-decoration: underline;
+    cursor: pointer;
+}

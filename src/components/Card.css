@@ -1,0 +1,178 @@
+.card {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 15px;
+
+    display: inline-block;
+
+    text-align: left;
+
+    box-shadow: 7px 7px 5px rgb(95, 95, 95);
+    transition-duration: 0.4s;
+
+}
+
+.card:hover { /*shadow effect */
+    box-shadow: 12px 12px 10px rgb(95, 95, 95);
+    transition-duration: 0.4s;
+}
+
+.card:active { /*pick up effect */
+    width: 220px;
+    height: 320px;
+    box-shadow: 24px 24px 14px rgb(95, 95, 95);
+
+    transition-duration: 0.5s;
+}
+
+.name {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.art {
+    max-width: 95%;
+    max-height: 50%;
+    display: block;
+    margin: auto;
+
+    filter:drop-shadow(2px 2px 2px rgb(65, 65, 65))
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.stats ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: .1em;
+}
+
+.stats li {
+    padding-bottom: .2em;
+}
+
+.number {
+    margin-top: .1em;
+    margin-left: 10px;
+}
+
+/* Colors */
+
+.normal{
+    background-color: #bebebe;
+    border-color: #7c7c7c;
+    background: linear-gradient(150deg, rgba(190,190,190,1) 0%, rgba(233,233,233,1) 30%, rgba(190,190,190,1) 100%);
+}
+
+.fire{
+    background-color: #f19020;
+    border-color: #a73718;
+    background: linear-gradient(150deg, rgba(241,144,32,1) 0%, rgba(255,209,155,1) 30%, rgba(241,144,32,1) 100%);
+}
+
+.water {
+    background-color: #71b8fa;
+    border-color: #136fc6;
+    background: linear-gradient(150deg, rgba(113,184,250,1) 0%, rgba(173,212,247,1) 30%, rgba(113,184,250,1) 100%);
+}
+
+.grass {
+    background-color: #53ef6a;
+    border-color: #0c7815; 
+    background: linear-gradient(150deg, rgba(83,239,106,1) 0%, rgb(178, 243, 187) 30%, rgba(83,239,106,1) 100%);
+}
+
+.electric {
+    background-color: #f2f24d;
+    border-color: #8b7506;
+    background: linear-gradient(150deg, rgba(242,242,77,1) 0%, rgba(241,241,196,1) 30%, rgba(242,242,77,1) 100%);
+}
+
+.ice {
+    background-color: #9adbf7;
+    border-color: #71a2b6;
+    background: linear-gradient(150deg, rgba(154,219,247,1) 0%, rgba(214,236,246,1) 30%, rgba(154,219,247,1) 100%);
+}
+
+.fighting {
+    background-color: #a76851;
+    border-color: #663a29;
+    background: linear-gradient(150deg, rgba(167,104,81,1) 0%, rgba(222,172,153,1) 30%, rgba(167,104,81,1) 100%);
+}
+
+.poison {
+    background-color: #b766e3;
+    border-color: #8148a0;
+    background: linear-gradient(150deg, rgba(183,102,227,1) 0%, rgba(220,177,243,1) 30%, rgba(183,102,227,1) 100%);
+}
+
+.ground {
+    background-color: #d0b34d;
+    border-color: #765400;
+    background: linear-gradient(150deg, rgba(208,179,77,1) 0%, rgba(255,240,187,1) 30%, rgba(208,179,77,1) 100%);
+}
+
+.flying {
+    background-color: #a7a4df;
+    border-color: #6f6e95;
+    background: linear-gradient(150deg, rgba(167,164,223,1) 0%, rgba(221,220,247,1) 30%, rgba(167,164,223,1) 100%);
+}
+
+.psychic {
+    background-color: #cd8ce7;
+    border-color: #8c629c;
+    background: linear-gradient(150deg, rgba(205,140,231,1) 0%, rgba(226,185,242,1) 30%, rgba(205,140,231,1) 100%);
+}
+
+.bug {
+    background-color: #b8f275;
+    border-color: #6f8c0e;
+    background: linear-gradient(150deg, rgba(184,242,117,1) 0%, rgb(226, 237, 213) 30%, rgba(184,242,117,1) 100%);
+}
+
+.rock {
+    background-color: #a19065;
+    border-color: #62491b;
+    background: linear-gradient(150deg, rgba(161,144,101,1) 0%, rgba(217,199,154,1) 30%, rgba(161,144,101,1) 100%);
+}
+
+.ghost {
+    background-color: #7e62c2;
+    border-color: #614b95;
+    background: linear-gradient(150deg, rgba(126,98,194,1) 0%, rgba(172,149,228,1) 30%, rgba(126,98,194,1) 100%);
+}
+
+.dark {
+    background-color: #3c3b37;
+    border-color: #171715;
+    color: white;
+    background: linear-gradient(150deg, rgba(60,59,55,1) 0%, rgba(135,133,126,1) 30%, rgba(60,59,55,1) 100%);
+}
+
+.dragon {
+    background-color: #7c7ee3;
+    border-color: #4a4b87;
+    background: linear-gradient(150deg, rgba(124,126,227,1) 0%, rgba(171,172,233,1) 30%, rgba(124,126,227,1) 100%);
+}
+
+.steel {
+    background-color: #9ca2bc;
+    border-color: #676b7c;
+    background: linear-gradient(150deg, rgba(156,162,188,1) 0%, rgba(223,227,242,1) 30%, rgba(156,162,188,1) 100%);
+}
+
+.fairy {
+    background-color: #edb7ef;
+    border-color: #906e90;
+    background: linear-gradient(150deg, rgba(237,183,239,1) 0%, rgba(245,226,246,1) 30%, rgba(237,183,239,1) 100%);
+}

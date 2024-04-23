@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+}
+
+.cardViewer {
+    max-width: 100%;
+    margin: auto;
+}
+
+.loadButton {
+    background-color: rgb(153, 23, 23);
+    color:rgb(255, 253, 248);
+    transition-duration: 0.2s;
+    border-color: rgb(63, 1, 1);
+    border-style: solid;
+
+    font-size: large;
+    font-family: "Bahnschrift", sans-serif;
+
+    padding: 1em;
+    margin: 2em;
+    border-radius: 20px;
+
+    box-shadow: 3px 3px 2px rgb(95, 95, 95);
+}
+
+.loadButton:hover {
+    background-color: rgb(182, 79, 67);
+    transition-duration: 0.2s;
+}
+
+.loadButton:active {
+    background-color: rgb(215, 136, 26);
+    color: black;
+}
+
+.search {
+    margin: 1em;
+    padding: .9em;
+
+    font-size: x-large;
+    color: rgb(120, 119, 116);
+    font-family: "Bahnschrift", sans-serif;
+
+    border-radius: 30px;
+    background-color:rgb(247, 247, 247);
+    border-color: rgb(120, 119, 116);
+    border-style: solid;
+
+    transition-duration: .2s;
+}
+
+.search:focus {
+    padding: 1em;
+    color: rgb(77, 76, 76);
+
+    transition-duration: .2s;
+}
+
+.searchButton {
+    background-color: rgb(153, 23, 23);
+    color:rgb(255, 253, 248);
+    transition-duration: 0.2s;
+    border-color: rgb(63, 1, 1);
+    border-style: solid;
+
+    font-size: large;
+    font-family: "Bahnschrift", sans-serif;
+
+    padding: 1em;
+    margin: 0;
+    border-radius: 30px;
+
+    box-shadow: 3px 3px 2px rgb(95, 95, 95);
+}
+
+.searchButton:hover {
+    background-color: rgb(182, 79, 67);
+    transition-duration: 0.2s;
+}
+
+.searchButton:active {
+    background-color: rgb(215, 136, 26);
+    color: black;
+}
+
+.error {
+    margin: 0;
+    color:rgb(232, 70, 42);
+}
