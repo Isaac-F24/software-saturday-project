@@ -1,4 +1,4 @@
-# Pokemon card viewer:
+# Pokemon card viewer
 
 ![Cards](images/pokemoncards.gif)
 
